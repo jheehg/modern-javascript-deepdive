@@ -10,7 +10,7 @@ obj.__proto__;
 // 프로토타입을 할당
 obj.__proto__ = parent;
 
-console.log(obj.x); //1
+console.log(obj.x); // 1
 
 // __proto__ 접근자 프로퍼티는 상속을 통해 사용된다.
 // 객체가 직접 소유하는 프로퍼티가 아닌 Object.prototype의 프로퍼티.
